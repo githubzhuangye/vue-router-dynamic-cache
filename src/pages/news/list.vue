@@ -15,10 +15,10 @@
                 >搜索</button>
             </div>
         </div>
-        <!-- <div 
+        <div 
             v-if="activeTip"
             class="active-tip"
-        >{{activeTip}}</div> -->
+        >{{activeTip}}</div>
         <div class="list-box">
             <div class="row-center title-box pv20">
                 <img
