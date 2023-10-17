@@ -27,6 +27,8 @@ npm start || npm run dev
 #### 不同场景访问示例
 可以查看 `src/router/index.js`，切换不同的`routes`注释，进行切换。
 
+![示例新闻项目，需求参照](./images/demo-project.png)
+
 ### 常见使用方法：
 #### 简单的push跳转
 ```js
