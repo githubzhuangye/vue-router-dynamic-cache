@@ -105,8 +105,7 @@ const handleBackList = () => {
 [北银金融科技有限责任公司](https://www.bobfintech.com.cn/)
 
 ### 许可证
-
-[MIT](https://github.com/bobfintech/vue-router-dynamic-cache/blob/master/LICENSE)
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/bobfintech/vue-router-dynamic-cache/blob/master/LICENSE) file for details.
 
 ### 维护者
 [z-yates](zhuangshujie@bobfintech.com.cn)
