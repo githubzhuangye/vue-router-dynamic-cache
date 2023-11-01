@@ -20,9 +20,26 @@ npm install
 npm start || npm run dev
 ```
 
+#### 依赖包
+```bash
+# 功能实现主要基于【vue-router-dynamic-cache】这个npm包，项目已经内置此依赖包，其他项目使用请安装依赖
+npm i vue-router-dynamic-cache --save
+```
+```js
+// 引入项目依赖
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import dynamicCacheRouter from 'vue-router-dynamic-cache';
+
+const { cacheRouter, store } = dynamicCacheRouter(router);
+const app = createApp(App);
+app.use(cacheRouter).use(store);
+app.mount('#app');
+```
+
 #### 访问
 浏览器访问 localhost:3000
-
 
 #### 不同场景访问示例
 可以查看 `src/router/index.js`，切换不同的`routes`注释，进行切换。
